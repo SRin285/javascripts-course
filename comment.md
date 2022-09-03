@@ -31,3 +31,6 @@ index : vị trí của kí tự bao gồm cả khoảng trắng
  toLowerCase : chuyển tất cả thành chữ in thường
  toUpperCase : chuyển tất cả thành chữ in hoa
  ex : console.log($name.toLowerCase());
+# startsWith 
+  startsWith : kiểm tra chuỗi có bắt đầu bằng chữ cho trước hay không (phân biệt hoa thường)
+ ex: console.log(authStr.startsWith("my"));
