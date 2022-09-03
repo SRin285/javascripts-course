@@ -1,0 +1,15 @@
+const numberOne = "8";
+const numberTwo = "5.8";
+console.log(parseInt(numberOne));
+console.log(parseFloat(numberTwo));
+console.log(Math.abs(numberOne));
+console.log(Math.floor(numberTwo));
+console.log(Math.round(numberTwo));
+console.log(parseFloat((1/3).toFixed(2)));
+console.log(parseFloat((Math.random() * 100).toFixed(2)));
+console.log(`Max : ${Math.max(1 , 8,7,12)}`);
+console.log(`Min : ${Math.min(1 , 8,7,12)}`);
+console.log(Math.pow(3,2));
+const myString = "my name is Hong";
+console.log(isNaN(myString));
+console.log(Number.isNaN(NaN));
