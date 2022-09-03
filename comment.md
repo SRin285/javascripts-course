@@ -21,16 +21,25 @@ khai báo : gồm 3 kiểu
     const name = "hong" 
     `my name ${name} + abc...`
 # length and index 
+const name = "Fontend Deverloper"
 length : độ dài kí tự 
-  ex : console.log($name .length)
+  ex : console.log($name .length) `38` 
 index : vị trí của kí tự bao gồm cả khoảng trắng
 # split 
  split : tách kí tự thành mảng 
- ex : console.log($name.split(" "));
+ ex : console.log($name.split(" ")); `["Fontend","Deverloper"]`
 # toLowerCase , toUpperCase
  toLowerCase : chuyển tất cả thành chữ in thường
  toUpperCase : chuyển tất cả thành chữ in hoa
- ex : console.log($name.toLowerCase());
-# startsWith 
+ ex : console.log($name.toLowerCase()); `["fontend deverloper"]`
+# startsWith , endsWitch
   startsWith : kiểm tra chuỗi có bắt đầu bằng chữ cho trước hay không (phân biệt hoa thường)
- ex: console.log(authStr.startsWith("my"));
+  endsWith :  kiểm tra chuỗi có kết thúc bằng chữ cho trước hay không (phân biệt hoa thường)
+ ex: console.log(authStr.startsWith("Fontend")); `true`
+# includes 
+  includes : kiểm tra chuỗi có chứa hay không ?
+  ex : console.log(names.includes("end")); `true`
+# indexOf , lastIndexOf
+  indexOf : kiểm tra vị trí của từng kí tự 
+  ex : console.log(names.indexOf("D"));
+  lastIndexOf : kiểm tra vị trí của từng kí tự tồn tại cuối cùng trong chuỗi
