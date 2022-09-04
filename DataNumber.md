@@ -33,8 +33,8 @@
 
 # Undefined , null , boolean
   undefined : khai báo biến chưa gắn giá trị thì được hiểu là undefined.
-  null : trống rỗng - không có gì 
+  null : khai báo nhưng để ("") trống rỗng - không có gì 
   boolean : đúng hoặc sai (true and fales)
   falesy values and truethy values 
   falesy values : "", 0, fales, undefined, null
-  truethy values : "abc", 1, true, 100
+  truethy values : "abc", 1, true, 100 (khác những giá trị falesy thì sẽ là truethy)
