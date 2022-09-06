@@ -38,3 +38,23 @@
   falesy values and truethy values 
   falesy values : "", 0, fales, undefined, null
   truethy values : "abc", 1, true, 100 (khác những giá trị falesy thì sẽ là truethy)
+
+# Hàm Number 
+  number : chuyển (convert) từ chuỗi sang số không cần dùng (parseInt,Float);
+  ex : 
+  console.log(Number("4.5")); `4.5`
+  console.log(Number(undefined)); `NaN`
+  console.log(Number(null)); `NaN`
+  console.log(Number(true and false)); `true : 1 , false : 0`
+  console.log(Number(""));  ` 0 `
+
+# Hàm String 
+  string : convert sang thành chuỗi 
+  ex : 
+  console.log(String(4.5)); `"4.5"`
+  console.log(String(undefined)); `"underfined"`
+# hàm Boolean 
+  boolean : trả về true hoặc false
+  falsesy (0,null, underfined , NaN ,"" ) => false
+  khác falsesy thì trả về truethy  
+ 
