@@ -14,3 +14,8 @@ console.log(10 + "20");
 console.log(null + "20");
 console.log(  + "20");
 console.log(  false+ true);
+console.log(10=="10");
+console.log(true == 1);
+console.log(1 == "01");
+console.log(10==="10");
+console.log(10 !== "10");
