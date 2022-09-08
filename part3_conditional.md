@@ -33,3 +33,19 @@
   ex : prompt("vui lòng nhập vào tên :","");
   confirm : xác nhận `data :string , boolean`
   ex : confirm("đay co phai la tien cua ban khong ");
+
+# switch case : 
+  ex : 
+  const number = "10" ;
+  switch (Number(number)) {
+    case 11:
+      alert(`đây là ${number}`);
+      break;
+  
+    default:
+      alert("không tồn tại");
+      break;
+  }
+# ternary operator 
+ ternary operator : cách viết if else rút gọn 
+ 
