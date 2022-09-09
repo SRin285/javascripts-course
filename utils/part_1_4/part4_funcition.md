@@ -28,6 +28,7 @@
   sum2(100,200);
   
  ` tham số là function `
+# callback 
   ex :  
   tính trung bình của a + b / 2
   function add(a = 0 , b = 0 ) {
@@ -91,3 +92,10 @@
   }
   let hello = sayhi3(" welcome to js : ");
   hello(" coca cola ");
+# Arrow function 
+  arrow function :anonymous function ECEAScripts ==> ko bị hoistring
+  : là một cách viết gọn của function 
+  ex : 
+  const square2 = () =>{ 
+    handle code and return 
+  }; 

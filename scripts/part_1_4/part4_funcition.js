@@ -58,11 +58,23 @@
 // let hello = sayhi3(" welcome to js : ");
 // hello(" coca cola ");
 
-function sayhi4() {
-  let massage = " hi";
-  return function sayhi(name) {
-    console.log(`${massage} ${name}`);
-  };
-}
-let hello1 = sayhi4();
-hello1(" coca cola ");
+// function sayhi4() {
+//   let massage = " hi";
+//   return function sayhi(name) {
+//     console.log(`${massage} ${name}`);
+//   };
+// }
+// let hello1 = sayhi4();
+// hello1(" coca cola ");
+
+/* Arrow function  */ 
+// const squre = function (x){ // hàm function bình thường
+//   return x * x ;
+// };
+// const square = (x) =>{ // arrow có 1 tham số 
+//   return x ;
+// };
+// const square2 = () =>{ // arrow ko tham số
+//   return x ;
+// };
+// const square3 = () => 100; // arrow return về một số
